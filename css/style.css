@@ -1,0 +1,845 @@
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {}
+
+.open_sans {
+    font-family: open sans;
+}
+
+.section-padding {
+    padding-top: 30px;
+  
+    background: #fff;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+img{
+    vertical-align: middle;
+}
+/*================main css area start here =======================*/
+/*================main css area start here =======================*/
+/*================main css area start here =======================*/
+/*================main css area start here =======================*/
+
+.main-header {
+    /* height: 50px; */
+    /* width: auto; */
+    background: rgba(18, 17, 17, 0.92);
+    text-align: center;
+
+}
+
+.main-menu img {
+    height: 20px;
+    padding-bottom: 5px;
+    
+}
+.main-menu ul{
+text-align: center;
+display: inline;
+}
+.main-menu ul li {
+  display: inline-block;
+  padding: 10px 22px ;
+}
+.main-menu ul li a {
+    text-decoration: none;
+    text-transform: inherit;
+    font-size: 12px;
+    font-weight: 400px;
+    color: #8b8e91;
+}
+.main-menu ul li:hover a{
+color: #fff;
+}
+/*=======sub header css ===*/
+.sub-header {
+    height: 50px;
+    width: auto;
+    background: #e0dcdc;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+/*========bannner css area start ========*/
+
+.banner {
+    height: 650px;
+    width: 100%;
+    background: #fcf5f5;
+    text-align: center;
+
+}
+
+.banner-part {
+    padding: 170px 200px;
+}
+
+.banner-part img {
+    height: 20px;
+}
+
+.banner-part a {
+    font-size: 35px;
+    color: #000;
+    font-weight: 400px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-transform: normal;
+    line-height: 10px;
+}
+
+.banner-part h1 {
+    font-size: 75px;
+    font-weight: 700px;
+    color: #000;
+    font-family: SF pro Text;
+
+}
+
+.banner-part h1 span {
+    background: #b3daf7;
+    padding: 5px;
+    border-left: 4px solid #60ed60;
+    border-right: 4px solid #60ed60;
+
+}
+
+.banner-part h3 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 400px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+
+/*==== ipad css area start */
+
+.ipad-part {
+    position: relative;
+    height: 650px;
+    width: 100%;
+    background: red;
+    text-align: center;
+}
+
+.ipad-part img {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.ipad-text {
+    position: absolute;
+    top: 5px;
+    left: 330px;
+    color: red;
+
+}
+
+.ipad-text h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800px;
+    font-family: cursive;
+
+}
+
+
+.ipad-text h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800px;
+    font-family: serif;
+
+}
+
+.ipad-text p {
+    color: #747070;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.ipad-text a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #1730f4;
+    padding: 10px;
+}
+
+/* --------- mac css area start */
+
+.mac-part {
+    position: relative;
+    height: 700px;
+    width: auto;
+    background: #faf9f9;
+}
+
+.mac-text {
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+
+
+}
+
+.mac-part img {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+}
+
+.mac-text h1 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 800px;
+    font-family: sans-serif;
+}
+
+.mac-text h4 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 800px;
+    font-family: serif;
+
+}
+
+.ipad-text p {
+    color: #747070;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.mac-text a {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #1730f4;
+    padding: 10px;
+}
+
+
+/*=========product area css start =======*/
+/*============ iphone 12 area csss start ======*/
+
+.product-left {
+    position: relative;
+    height: 650px;
+    width: 100%;
+    background: #beedeb;
+    border-radius: 15px;
+    border: 1px solid #000;
+
+
+
+}
+
+.pro-text {
+    height: 170px;
+    width: 100%;
+    padding: 5px;
+    color: black;
+    text-align: center;
+
+}
+
+.product-left img {
+    position: absolute;
+    height: 470px;
+    width: 100%;
+    padding: 5px;
+
+}
+
+.product-right {}
+
+.product-right img {
+    height: 650px;
+    width: 100%;
+    padding: 5px;
+
+}
+
+#bimage {
+    background-image: url("../images/bimage.jpg");
+    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: visible;
+}
+
+
+
+
+
+
+/*================  footer area css start ==========*/
+
+
+.list ul li {
+    list-style: none;
+
+}
+
+.list ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #989090;
+    font-weight: 400px;
+    font-family: normal;
+    display: #d8aeae;
+    padding: 8px 0px;
+
+}
+
+.list ul li a:hover {
+    color: #6873c4;
+    border-bottom: 2px solid #6d6767;
+    padding-bottom: 0px;
+    color: #000;
+}
+
+.last-part {
+    text-align: center;
+
+}
+
+/*================== mac page css area start =======*/
+/*================== mac page css area start =======*/
+/*================== mac page css area start =======*/
+/*================== mac page css area start =======*/
+/*================== mac page css area start =======*/
+/*================== mac page css area start =======*/
+.ab-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.ab-section h1 {
+    font-size: 50px;
+    font-weight: 800px;
+    font-family: normal;
+
+}
+
+.mac-item {
+    text-align: center;
+    background: #fff;
+}
+
+.mac-item img {
+    height: 300px;
+    width: 100%;
+}
+
+.mac-buy {
+    border: 2px solid rgba(20, 58, 15, 24);
+    padding: 5px 15px;
+    font-size: 16px;
+    background: #2013bf;
+    color: #fff;
+    border-radius: 10px;
+
+}
+
+.mac-item span {
+    font-size: 80px;
+    color: #000;
+}
+
+/*=======mac item css end ====*/
+
+.mac-1 {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: #989595;
+    background-image: url("../images/bgimage2.jpg");
+    background-position: fixed;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: visible;
+    border-radius: 50px;
+
+
+
+
+}
+
+.mac-1 img {
+    position: absolute;
+    height: 400px;
+    width: 50%;
+    float: left;
+    top: 50px;
+    left: 20px;
+    border-radius: 50px;
+}
+
+.text-mac-1 {
+    padding-top: 130px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.text-mac-1 h1 {
+    float: right;
+    margin-right: 100px;
+    margin-left: 60%;
+
+}
+
+.text-mac-1 p {
+    float: right;
+    margin-right: 100px;
+    margin-left: 60%;
+
+}
+
+
+/*=== mac con css area start =*/
+
+.mac-con {
+
+    text-align: center;
+    box-shadow: 5px beige;
+    box-shadow: 5px 8px 7px 3px #817b7b;
+}
+
+.mac-con h1 {
+    font-size: 30px;
+    line-height: 10px;
+    font-weight: 800;
+    font-family: normal;
+    color: #4d4949;
+
+}
+
+
+.mac-con span {
+    font-size: 47px;
+    padding: 0px;
+    color: #c3c3ca;
+    background: #fff;
+    padding: 7px;
+    border: 2px solid #acaca4;
+    border-radius: 50%;
+
+}
+
+.titl {
+    text-align: center;
+    font-size: 65px;
+    padding: 80px;
+}
+
+.title h1 {
+    font-size: 65px;
+    font-weight: 600px;
+    font-family: initial;
+    color: black;
+}
+
+.titlim {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    background: red;
+}
+
+.titlim img {
+    position: absolute;
+    height: 450px;
+    width: 100%;
+}
+
+.titlim-text {
+    position: absolute;
+    top: 164px;
+    left: 34%;
+    text-align: center;
+}
+
+
+.t {
+
+    text-align: center;
+    color: #fff;
+    font-size: 34px;
+}
+
+.t a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: fantasy;
+    color: #fff;
+
+}
+
+/*============  col lg 12 area css start ======*/
+.content-l {
+    background: #f2eaea;
+    text-align: center;
+}
+
+.content-l ul li {
+    list-style: none;
+    font-size: 35px;
+    color: green;
+    display: inline;
+    padding: 10px 15px inherit;
+    padding: 9px;
+    background: #bbb;
+    border-radius: 50%;
+    margin-right: 28px;
+
+}
+
+.content-l img{
+    height: 400px;
+    width: 550px;
+}
+
+
+/*======= over lay */
+/* ========TV & Home area css start here ============= */
+
+#tbg{
+    background: rgba(246, 245, 245, 0.753);
+}
+
+.tv-image img{
+   margin-top: 40px ;
+    height: 300px ;
+    width: 100%;
+}
+.future-banner{
+    background: rgba(246, 245, 245, 0.753);
+    padding: 50px 0px ;
+    text-align: center;
+}
+.future-hit-image img{
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+}
+.future-banner h1{
+    font-size: 100px;
+    font-weight: 800;
+    font-family: initial;
+    color: #000;
+    font-family: 'SF Pro Display', sans-serif;
+    padding-bottom: 10px ;
+}
+.future-banner h2{
+    font-size: 24px ;
+    font-weight: 400px;
+    font-family: initial;
+    color: rgb(143, 138, 138);
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 0px 50px ;
+  
+}
+.future-banner a{
+    font-size: 18px ;
+    font-weight: 400px;
+    font-family: initial;
+    color: rgb(143, 138, 138);
+    font-family: 'SF Pro Display', sans-serif;
+  font-style: italic;
+  
+}
+/* futeure banner area end here =-==================== */
+.home_pod-mini{
+    background: #fff;
+    padding: 50px 0px ;
+    border-radius: 15px;
+
+}
+.home_pod-mini h1{
+    font-size: 24px;
+    font-weight: 600px;
+    font-family: initial;
+    color: #000;
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 0px 60px ;
+    margin: 0px ;
+}
+.home_pod-mini h4{
+    font-size: 24px;
+    font-weight: 600px;
+    font-family: initial;
+    color: #000;
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 0px 100px ;
+    margin: 0px ;
+}
+.home_pod-mini h3{
+    font-size: 24px ;
+    font-weight: 600px;
+    font-family: initial;
+    color: #000;
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 0px 100px ;
+    margin: 0px ;
+}
+.home_pod-mini button{
+    background: rgb(10, 62, 235);
+    padding: 5px 8px ;
+    border-radius: 10px ;
+    border: none;
+    margin: 20px 8px ;
+}
+.home_pod-mini button a{
+    background: rgb(10, 62, 235);
+    color: #fff;
+}
+.p-product img{
+height: 100%;
+width: 100%;
+}
+/* command area css here ==== */
+.bg-color{
+    background: #fff;
+    border-radius: 15px ;
+}
+.command-img img{
+    height: 100%;
+    width: 100%;
+    margin-top: 100px ;
+}
+.comd-info{
+    padding-top: 120px ;
+    text-align: center;
+}
+.comd-info span {
+   color: rgb(238, 94, 37);
+   font-size: 40px;
+   border: 1px solid #000;
+
+}
+/* common area css start here ==== */
+.common-part h1{
+    font-size: 70px;
+    font-weight: 800;
+    font-family: initial;
+    color: #000;
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 50px 25px;
+}
+/* slider area css start herer  */
+  .main-slider {
+    position: relative;  
+    width: 100%;
+    text-align: left;      
+  }
+  .slider-item {
+    /* height: 500px; */
+    width: 100% !important;
+    position: relative;
+    z-index: 9;
+    margin-top:5px;
+  }
+  .slider-item img {
+    height: 300px;
+    max-width: 400px;
+    padding: 0px 10px;
+  }
+  .slider-item{
+    background: #fff;
+    border-radius: 15px;
+  }
+  .slider-text {
+    padding: 50px 10px;
+  }
+  .slider-text h2{
+    font-size: 24px;
+    font-weight: 600px;
+    font-family: initial;
+    color: #000;
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 10px 40px ;
+    margin: 0px ;
+  }
+  .slider-text a{
+    font-size: 14px;
+    font-weight: 40px;
+    font-family: initial;
+    color: rgb(12, 155, 238);
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 10px 40px;
+    margin: 0px;
+  }
+  /* =========slider area css end herer ================ */
+  .home-con{
+      text-align: center;
+      padding:30px 0px ;
+      background: rgb(128, 224, 200);
+      min-height: 300px;
+  }
+  .home-con h2{
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: initial;
+    color: #000;
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 10px 40px ;
+    margin: 0px ;
+
+}
+.home-con button{
+   border: none;
+   background: rgb(16, 85, 233);
+   padding: 5px 8px;
+   margin: 10px ;
+}
+.home-con button a{
+    color: #fff;
+    padding: 10px 15px;
+ }
+   
+/* =================    IPOONE CSS START HERE ==================== */
+/* =================    IPOONE CSS START HERE ==================== */
+/* =================    IPOONE CSS START HERE ==================== */
+.iphone-banner{
+    position: relative;
+    text-align: center;
+    padding: 30px 0px ;
+}
+
+.b-text{
+margin: 0 auto ;
+padding: 50px 100px ;
+
+}
+.b-text button{
+border: none;
+padding: 5px 8px;
+background: rgb(25, 29, 240);
+border-radius: 45%;
+margin: 15px ;
+}
+.b-text button a{
+   color: rgb(245, 241, 241);
+   font-size: 16px;   
+}
+.b-text a{
+    color: rgb(34, 48, 240);
+}
+.banner-img {
+width: 100%;
+}
+.banner-img img{
+    width: 60%; 
+}
+
+ .b-text h2,h3{
+    font-size: 24px;
+    font-family: initial;
+    color: #000;
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0px ;
+    line-height: 3;
+ }  
+ .b-text h1{
+    font-size: 24px;
+    font-weight: 700px;
+    font-family: initial;
+    color: rgb(156, 17, 17);
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0px ;
+ }  
+ .spower{
+     background: #122239;
+ }
+  .spower-img img{
+      height: auto;
+      width: 100%;
+  }   
+  .spower-text h1{
+    font-size: 34px;
+    font-weight: 700px;
+    font-family: initial;
+    color: rgb(255, 254, 254);
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0px ;
+  }  
+  .spower-text h1,h2,h3{
+    color: rgb(255, 254, 254);
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0px ;
+  }  
+/* end  */
+.guid{
+    position: relative;
+}
+.guid img{
+height:auto;
+width: 100%;
+border-radius: 40px ;
+}
+.guid-text{
+    position: absolute;
+    left: 10%;
+    top: 40px;
+    width: 300px;
+    background: red;
+}
+.guid-text h3{
+    font-size: 24px;
+    font-family: initial;
+    color: #fff;
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0px ;
+}
+.guid-text h1{
+    font-size: 34px;
+    font-weight: 700px;
+    font-family: initial;
+    color: rgb(255, 254, 254);
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0px ;
+}
+.guid-text button{
+ border: none;
+padding: 5px 8px;
+background: rgb(179, 180, 240);
+border-radius: 45px;
+margin: 15px ;
+}
+.guid-text button a{
+
+}
+
+
+
+
+
+
+
+
+
+
+
